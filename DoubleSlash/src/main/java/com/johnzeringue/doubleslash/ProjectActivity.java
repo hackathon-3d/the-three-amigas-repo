@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
@@ -20,7 +19,7 @@ public class ProjectActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project);
+        setContentView(R.layout.activity_workspace);
     }
 
     @Override
@@ -49,18 +48,11 @@ public class ProjectActivity extends Activity {
 
         _adapter.close();
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_list_item,
+        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_note_item,
                 noteList.toArray(new String[noteList.size()]));
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
-
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                showItem(view);
-            }
-        });
     }
 
     public void showItem(View view) {

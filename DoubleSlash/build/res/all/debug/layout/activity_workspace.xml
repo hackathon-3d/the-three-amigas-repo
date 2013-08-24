@@ -1,7 +1,8 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
 
     <GridView
             android:layout_width="wrap_content"
@@ -11,6 +12,7 @@
             android:layout_centerHorizontal="true"
             android:numColumns="2"
             android:layout_above="@+id/button"
+            android:clickable="true"
             />
 
     <Button

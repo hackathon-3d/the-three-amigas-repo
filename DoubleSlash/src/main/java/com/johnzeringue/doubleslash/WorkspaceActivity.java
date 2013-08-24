@@ -49,18 +49,11 @@ public class WorkspaceActivity extends Activity {
 
         _adapter.close();
 
-        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_list_item,
+        ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_project_item,
                 projectList.toArray(new String[projectList.size()]));
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
-
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                showProject(view);
-            }
-        });
     }
 
     public void newProject(View view) {
