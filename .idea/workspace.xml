@@ -20,31 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/NewNoteActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/NewProjectActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/NotesDBAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/menu/edit_note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/menu/new_note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/menu/new_project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/menu/project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/the-three-amigas-repo - Copy - Copy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" afterPath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/demo.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/demo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/popup.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/popup.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/popup_punctuation.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/popup_punctuation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/querty.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/querty.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/menu/workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/menu/workspace.xml" />
     </list>
     <ignored path="DoubleSlash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,10 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WorkspaceActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WorkspaceActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="113" selection-start="2067" selection-end="2094" vertical-scroll-proportion="1.0155709" vertical-offset="552" max-vertical-offset="1428">
+            <state line="70" column="113" selection-start="2067" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1428">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#916#924#0" expanded="true" />
@@ -120,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DoubleSlash/build/manifests/debug/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="30" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1530">
+            <state line="20" column="24" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.5902778" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -273,7 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/demo.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
@@ -289,6 +275,7 @@
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/NotesDBAdapter.java" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" />
+        <option value="$PROJECT_DIR$/DoubleSlash/build/manifests/debug/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -324,7 +311,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -600,19 +586,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="169" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="192" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="185" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="284" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="197" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="985" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="990" />
@@ -632,7 +619,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01511D340A013001" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="261d8729" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -794,7 +781,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -806,20 +793,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3318584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.6681416" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3318584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26869455" sideWeight="0.6681416" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -838,16 +825,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.148148" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="55" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="1969" max-vertical-offset="2550">
@@ -874,9 +851,6 @@
         <state line="40" column="18" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="833">
           <folding>
             <element signature="e#422#440#0" expanded="true" />
-            <element signature="e#1276#1312#0" expanded="true" />
-            <element signature="e#1451#1484#0" expanded="true" />
-            <element signature="e#1624#1658#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -978,11 +952,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="113" selection-start="2067" selection-end="2094" vertical-scroll-proportion="1.0155709" vertical-offset="552" max-vertical-offset="1428">
+        <state line="70" column="113" selection-start="2067" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1428">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#916#924#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/build/manifests/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.5902778" vertical-offset="0" max-vertical-offset="576">
+          <folding />
         </state>
       </provider>
     </entry>

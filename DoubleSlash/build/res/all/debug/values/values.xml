@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo%20-%20Copy%20-%20Copy/DoubleSlash/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo%20-%20Copy%20-%20Copy/DoubleSlash/src/main/res/values/strings.xml -->
     <dimen name="key_height">10px</dimen>
 
     <string name="action_settings">Settings</string>
@@ -15,7 +15,7 @@
     <string name="title_activity_new_note">DoubleSlash</string>
     <string name="title_activity_new_project">DoubleSlash</string>
     <string name="title_activity_project">DoubleSlash</string>
-    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo%20-%20Copy%20-%20Copy/DoubleSlash/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
