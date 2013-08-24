@@ -28,5 +28,6 @@ local.properties
 /*/*/production
 *.iws
 *.ipr
+*.iml
 *~
 *.swp

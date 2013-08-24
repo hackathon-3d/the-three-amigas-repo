@@ -12,25 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/popup.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/popup_punctuation.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/querty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" afterPath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/values-v11/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/values-v14/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-sw720dp-land/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/menu/workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/menu/workspace.xml" />
     </list>
     <ignored path="DoubleSlash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,19 +81,20 @@
       <file leaf-file-name="WorkspaceActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="7" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DemoActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="55" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.33046472" vertical-offset="692" max-vertical-offset="2499">
+            <state line="63" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="2499">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#1903#2084#0" expanded="true" />
                 <element signature="e#2073#2074#0" expanded="true" />
               </folding>
             </state>
@@ -122,7 +107,16 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="63" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.148148" vertical-offset="0" max-vertical-offset="425">
+            <state line="19" column="17" selection-start="906" selection-end="906" vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="5" selection-start="335" selection-end="335" vertical-scroll-proportion="0.7659208" vertical-offset="65" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -134,7 +128,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="49" selection-start="154" selection-end="154" vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1530">
+            <state line="23" column="19" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-14.481482" vertical-offset="0" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -155,11 +149,12 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="629">
+            <state line="17" column="43" selection-start="566" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="799">
               <folding>
                 <element signature="e#422#440#0" expanded="true" />
-                <element signature="e#601#619#0" expanded="true" />
-                <element signature="e#967#985#0" expanded="true" />
+                <element signature="e#611#637#0" expanded="true" />
+                <element signature="e#1063#1081#0" expanded="true" />
+                <element signature="e#1429#1447#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,11 +219,12 @@
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/popup_punctuation.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/querty.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/popup.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/demo.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -635,26 +631,26 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26869455" sideWeight="0.67367256" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26869455" sideWeight="0.67367256" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29721165" sideWeight="0.67367256" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29657796" sideWeight="0.67367256" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32632744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -739,13 +735,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="2394" selection-end="2394" vertical-scroll-proportion="0.0" vertical-offset="745" max-vertical-offset="2499">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1903#2084#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="629">
+        <state line="17" column="43" selection-start="566" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="799">
           <folding>
             <element signature="e#422#440#0" expanded="true" />
-            <element signature="e#601#619#0" expanded="true" />
-            <element signature="e#967#985#0" expanded="true" />
+            <element signature="e#611#637#0" expanded="true" />
+            <element signature="e#1063#1081#0" expanded="true" />
+            <element signature="e#1429#1447#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,14 +771,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="49" selection-start="154" selection-end="154" vertical-scroll-proportion="-1.2592592" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="23" column="19" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-14.481482" vertical-offset="0" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
@@ -772,19 +781,15 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="296" selection-end="296" vertical-scroll-proportion="-3.148148" vertical-offset="0" max-vertical-offset="425">
+        <state line="19" column="17" selection-start="906" selection-end="906" vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/DemoActivity.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="55" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.33046472" vertical-offset="692" max-vertical-offset="2499">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
-          </folding>
+        <state line="30" column="5" selection-start="335" selection-end="335" vertical-scroll-proportion="0.7659208" vertical-offset="65" max-vertical-offset="663">
+          <folding />
         </state>
       </provider>
     </entry>
