@@ -11,41 +11,56 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
-        /**  From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values/dimens.xml 
- From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/dimens.xml 
+ From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f040000;
         public static final int activity_vertical_margin=0x7f040001;
+        /**  From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/strings.xml 
+         */
+        public static final int key_height=0x7f040002;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int icon=0x7f020001;
+        public static final int sym_keyboard_delete=0x7f020002;
+        public static final int sym_keyboard_done=0x7f020003;
+        public static final int sym_keyboard_return=0x7f020004;
+        public static final int sym_keyboard_shift=0x7f020005;
+        public static final int sym_keyboard_space=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f080002;
+        public static final int editText=0x7f080001;
+        public static final int keyboardView=0x7f080000;
     }
     public static final class layout {
         public static final int activity_workspace=0x7f030000;
+        public static final int demo=0x7f030001;
+        public static final int popup=0x7f030002;
+        public static final int popup_punctuation=0x7f030003;
+        public static final int querty=0x7f030004;
     }
     public static final class menu {
         public static final int workspace=0x7f070000;
     }
     public static final class string {
-        /**  From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values/strings.xml 
-         */
         public static final int action_settings=0x7f050000;
         public static final int app_name=0x7f050001;
-        public static final int hello_world=0x7f050002;
+        public static final int hello=0x7f050002;
+        public static final int hello_world=0x7f050003;
+        public static final int title=0x7f050004;
     }
     public static final class style {
-        /**  From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values/styles.xml 
+        /**  From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values-v11/styles.xml 
+ From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/C:/Users/John/AndroidStudioProjects/DoubleSlashProject/DoubleSlash/src/main/res/values-v14/styles.xml 
+ From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo/DoubleSlash/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f060000;

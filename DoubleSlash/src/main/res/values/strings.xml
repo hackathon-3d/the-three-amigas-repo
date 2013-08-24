@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">DoubleSlash</string>
+    <string name="hello">Hello World, KeyboardActivity!</string>
+    <string name="app_name"></string>
+    <string name="hello_world">Hello, World!</string>
+    <string name="title">DoubleSlash</string>
+    <dimen name="key_height">10px</dimen>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
 </resources>
