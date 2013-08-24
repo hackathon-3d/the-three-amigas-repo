@@ -19,18 +19,8 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="Added button states">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/slash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page.png" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page_pressed.png" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" afterPath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" />
+    <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DoubleSlash.iws" />
@@ -95,7 +85,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_workspace.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_workspace.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
@@ -104,13 +94,6 @@
             <state line="22" column="39" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trash.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -617,7 +600,11 @@
       <created>1377355510335</created>
       <updated>1377355510335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Some UI tinkering.">
+      <created>1377361671465</created>
+      <updated>1377361671465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,7 +652,8 @@
     <MESSAGE value="Awesome UI changes" />
     <MESSAGE value="Another sublime commit" />
     <MESSAGE value="Added button states" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added button states" />
+    <MESSAGE value="Some UI tinkering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some UI tinkering." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -771,6 +759,11 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/slash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -779,16 +772,6 @@
         <state line="22" column="39" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/slash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>
