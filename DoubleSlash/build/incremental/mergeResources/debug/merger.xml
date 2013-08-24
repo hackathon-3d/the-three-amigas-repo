@@ -41,9 +41,10 @@
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
+                <string name="app_name" >DoubleSlash
+                </string>
                 <string name="title" >DoubleSlash
                 </string>
-                <string name="app_name" ></string>
 
                 <dimen name="key_height" >10px
                 </dimen>
