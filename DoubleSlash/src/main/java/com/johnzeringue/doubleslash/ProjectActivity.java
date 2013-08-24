@@ -1,9 +1,9 @@
 package com.johnzeringue.doubleslash;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,13 +14,13 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WorkspaceActivity extends Activity {
+public class ProjectActivity extends Activity {
     private NotesDBAdapter _adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_workspace);
+        setContentView(R.layout.activity_project);
     }
 
     @Override
@@ -30,27 +30,27 @@ public class WorkspaceActivity extends Activity {
         _adapter = new NotesDBAdapter(this);
         _adapter.open();
 
-        showProjects();
+        showNotes();
     }
 
-    public void showProjects() {
-        List<String> projectList = new ArrayList<String>();
-        Cursor projects = _adapter.fetchProjects();
+    private void showNotes() {
+        List<String> noteList = new ArrayList<String>();
+        Cursor notes = _adapter.fetchProjectNoteTitles(getIntent().getStringExtra("projectName"));
 
-        if (projects.getCount() > 0) {
-            projects.moveToFirst();
+        if (notes.getCount() > 0) {
+            notes.moveToFirst();
 
-            while (!projects.isLast()) {
-                projectList.add(projects.getString(0));
-                projects.moveToNext();
+            while (!notes.isLast()) {
+                noteList.add(notes.getString(0));
+                notes.moveToNext();
             }
-            projectList.add(projects.getString(0));
+            noteList.add(notes.getString(0));
         }
 
         _adapter.close();
 
         ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_list_item,
-                projectList.toArray(new String[projectList.size()]));
+                noteList.toArray(new String[noteList.size()]));
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
@@ -58,23 +58,26 @@ public class WorkspaceActivity extends Activity {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                showProject(view);
+                showItem(view);
             }
         });
     }
 
-    public void newProject(View view) {
-        startActivity(new Intent(this, NewProjectActivity.class));
+    public void showItem(View view) {
+        Intent intent = new Intent(this, EditNoteActivity.class)
+                .putExtras(getIntent().getExtras())
+                .putExtra("title", ((TextView) view).getText());
+        startActivity(intent);
     }
 
-    public void showProject(View view) {
-        startActivity(new Intent(this, ProjectActivity.class).putExtra("projectName", ((TextView) view).getText()));
+    public void newNote(View view) {
+        startActivity(new Intent(this, NewNoteActivity.class).putExtras(getIntent().getExtras()));
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.workspace, menu);
+        getMenuInflater().inflate(R.menu.project, menu);
         return true;
     }
     

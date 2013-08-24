@@ -28,6 +28,7 @@ import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
 import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class DemoActivity extends Activity implements OnKeyListener,
         OnKeyboardActionListener {
@@ -61,7 +62,6 @@ public class DemoActivity extends Activity implements OnKeyListener,
                 toggleKeyboardVisibility();
             }
         });
-
     }
 
     private void setKeyboardVisibility(boolean isVisible) {
