@@ -58,15 +58,33 @@ public class ProjectActivity extends Activity {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (view.isSelected()) {
+                            view.setSelected(false);
+                        } else {
+                            view.setSelected(true);
+                        }
+
+                        showItem(view);
+                    }
+                });
 
                 if (position == getCount() - 1) {
                     ((Button) view).setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
+                            if (view.isSelected()) {
+                                view.setSelected(false);
+                            } else {
+                                view.setSelected(true);
+                            }
+
                             newNote(view);
                         }
                     });
-                    ((Button) view).setBackgroundResource(R.drawable.newpage);
+                    ((Button) view).setBackgroundResource(R.drawable.newfile_states);
                 }
 
                 return view;

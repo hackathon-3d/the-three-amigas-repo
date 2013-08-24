@@ -6,5 +6,5 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         xmlns:tools="http://schemas.android.com/tools"
-        android:background="@drawable/page"
+        android:background="@drawable/filestates"
         android:onClick="showItem"/>
