@@ -24,23 +24,18 @@ public final class R {
         public static final int folder=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int icon=0x7f020002;
-        public static final int newpage=0x7f020003;
-        public static final int page=0x7f020004;
-        public static final int sym_keyboard_delete=0x7f020005;
-        public static final int sym_keyboard_done=0x7f020006;
-        public static final int sym_keyboard_return=0x7f020007;
-        public static final int sym_keyboard_shift=0x7f020008;
-        public static final int sym_keyboard_space=0x7f020009;
+        public static final int newfolder=0x7f020003;
+        public static final int newpage=0x7f020004;
+        public static final int page=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f080007;
+        public static final int action_settings=0x7f080006;
         public static final int button=0x7f080004;
         public static final int editText=0x7f080000;
         public static final int editText2=0x7f080001;
         public static final int gridView=0x7f080005;
         public static final int note_body=0x7f080003;
         public static final int note_name=0x7f080002;
-        public static final int simple_list_item=0x7f080006;
     }
     public static final class layout {
         public static final int activity_edit_note=0x7f030000;
@@ -48,9 +43,8 @@ public final class R {
         public static final int activity_new_project=0x7f030002;
         public static final int activity_project=0x7f030003;
         public static final int activity_workspace=0x7f030004;
-        public static final int simple_list_item=0x7f030005;
-        public static final int simple_note_item=0x7f030006;
-        public static final int simple_project_item=0x7f030007;
+        public static final int simple_note_item=0x7f030005;
+        public static final int simple_project_item=0x7f030006;
     }
     public static final class menu {
         public static final int edit_note=0x7f070000;

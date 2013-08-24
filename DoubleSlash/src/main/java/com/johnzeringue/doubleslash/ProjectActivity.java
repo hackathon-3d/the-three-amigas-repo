@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -49,8 +51,27 @@ public class ProjectActivity extends Activity {
 
         _adapter.close();
 
+        noteList.add("");
+
         ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_note_item,
-                noteList.toArray(new String[noteList.size()]));
+                noteList.toArray(new String[noteList.size()])) {
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+
+                if (position == getCount() - 1) {
+                    ((Button) view).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            newNote(view);
+                        }
+                    });
+                    ((Button) view).setBackgroundResource(R.drawable.newpage);
+                }
+
+                return view;
+            }
+        };
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);

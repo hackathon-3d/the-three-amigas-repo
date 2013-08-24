@@ -7,5 +7,4 @@
         android:text="Medium Text"
         xmlns:tools="http://schemas.android.com/tools"
         android:background="@drawable/page"
-        android:id="@+id/simple_list_item"
         android:onClick="showItem"/>

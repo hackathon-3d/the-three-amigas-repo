@@ -5,17 +5,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/gridView"
-            android:numColumns="2"
+            android:numColumns="3"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_above="@+id/button"></GridView>
-
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="New Note"
-            android:id="@+id/button"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:onClick="newNote"/>
+            android:layout_above="@+id/button"
+            android:background="#e6e9ed"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:verticalSpacing="10dp"
+            android:paddingTop="10dp"/>
 </RelativeLayout>

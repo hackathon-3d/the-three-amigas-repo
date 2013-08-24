@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -50,11 +51,32 @@ public class WorkspaceActivity extends Activity {
 
         _adapter.close();
 
+        projectList.add("");
+
         ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.simple_project_item,
-                projectList.toArray(new String[projectList.size()]));
+                projectList.toArray(new String[projectList.size()])) {
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = super.getView(position, convertView, parent);
+
+                if (position == getCount() - 1) {
+                    ((Button) view).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            newProject(view);
+                        }
+                    });
+                    ((Button) view).setBackgroundResource(R.drawable.newfolder);
+                }
+
+                return view;
+            }
+        };
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
+
+
     }
 
 

@@ -6,20 +6,16 @@
 
     <GridView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             android:id="@+id/gridView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:numColumns="2"
             android:layout_above="@+id/button"
-            android:clickable="true" />
-
-    <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="New Project"
-            android:id="@+id/button"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:onClick="newProject"/>
+            android:clickable="true"
+            android:background="#ccd1d9"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:verticalSpacing="10dp"
+            android:paddingTop="10dp"/>
 </RelativeLayout>

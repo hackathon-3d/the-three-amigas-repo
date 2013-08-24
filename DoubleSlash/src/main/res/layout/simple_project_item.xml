@@ -5,6 +5,6 @@
      android:layout_height="wrap_content"
      android:textAppearance="?android:attr/textAppearanceMedium"
      android:text="Medium Text"
+     android:textColor="#ffffff"
      android:background="@drawable/folder"
-     android:id="@+id/simple_list_item"
      android:onClick="showProject"/>
