@@ -61,7 +61,14 @@ public class DemoActivity extends Activity implements OnKeyListener,
                 toggleKeyboardVisibility();
             }
         });
-
+        keyboardView.setOnKeyListener(new OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int i, KeyEvent keyEvent) {
+                EditText editText = (EditText) getCurrentFocus();
+                editText.setText(editText.getText() + String.valueOf((char) i));
+                return true;
+            }
+        });
     }
 
     private void setKeyboardVisibility(boolean isVisible) {
