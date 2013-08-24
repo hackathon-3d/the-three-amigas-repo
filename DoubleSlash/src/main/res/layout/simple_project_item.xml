@@ -6,5 +6,4 @@
      android:textAppearance="?android:attr/textAppearanceMedium"
      android:text="Medium Text"
      android:textColor="#ffffff"
-     android:background="@drawable/folder"
-     android:onClick="showProject"/>
+     android:background="@drawable/folder_states"/>

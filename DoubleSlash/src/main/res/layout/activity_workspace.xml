@@ -17,5 +17,7 @@
             android:stretchMode="columnWidth"
             android:gravity="center"
             android:verticalSpacing="10dp"
-            android:paddingTop="10dp"/>
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
 </RelativeLayout>

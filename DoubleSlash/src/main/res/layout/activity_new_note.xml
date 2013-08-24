@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/note_name"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:hint="Title"/>
 
     <EditText
             android:layout_width="fill_parent"
@@ -22,7 +23,8 @@
             android:ems="10"
             android:id="@+id/note_body"
             android:layout_below="@+id/note_name"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:hint="Message"/>
 
     <Button
             android:layout_width="fill_parent"

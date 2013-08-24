@@ -17,5 +17,7 @@
             android:stretchMode="columnWidth"
             android:gravity="center"
             android:verticalSpacing="10dp"
-            android:paddingTop="10dp"/>
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
 </RelativeLayout><!-- From: file:/C:/Users/John/Documents/GitHub/the-three-amigas-repo%20-%20Copy%20-%20Copy/DoubleSlash/src/main/res/layout/activity_workspace.xml -->

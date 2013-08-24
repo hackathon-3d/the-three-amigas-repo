@@ -3,6 +3,7 @@ package com.johnzeringue.doubleslash;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -59,14 +60,33 @@ public class WorkspaceActivity extends Activity {
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);
 
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (view.isSelected()) {
+                            view.setSelected(false);
+                        } else {
+                            view.setSelected(true);
+                        }
+
+                        showProject(view);
+                    }
+                });
+
                 if (position == getCount() - 1) {
                     ((Button) view).setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
+                            if (view.isSelected()) {
+                                view.setSelected(false);
+                            } else {
+                                view.setSelected(true);
+                            }
+
                             newProject(view);
                         }
                     });
-                    ((Button) view).setBackgroundResource(R.drawable.newfolder);
+                    ((Button) view).setBackgroundResource(R.drawable.newfolder_states);
                 }
 
                 return view;

@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:hint="Title"/>
 
     <EditText
             android:layout_width="fill_parent"
@@ -22,5 +23,6 @@
             android:ems="10"
             android:id="@+id/editText2"
             android:layout_below="@+id/editText"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:hint="Title"/>
 </RelativeLayout>

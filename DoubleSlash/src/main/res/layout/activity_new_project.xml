@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true"
+            android:hint="Title"/>
 
     <Button
             android:layout_width="fill_parent"
