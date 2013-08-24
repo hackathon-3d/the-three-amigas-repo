@@ -12,8 +12,7 @@
             android:layout_centerHorizontal="true"
             android:numColumns="2"
             android:layout_above="@+id/button"
-            android:clickable="true"
-            />
+            android:clickable="true" />
 
     <Button
             android:layout_width="fill_parent"

@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -55,6 +56,7 @@ public class WorkspaceActivity extends Activity {
         GridView gridView = (GridView) findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
     }
+
 
     public void newProject(View view) {
         startActivity(new Intent(this, NewProjectActivity.class));
