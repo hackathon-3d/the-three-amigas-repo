@@ -7,4 +7,5 @@
         android:text="Medium Text"
         xmlns:tools="http://schemas.android.com/tools"
         android:background="@drawable/filestates"
-        android:onClick="showItem"/>
+        android:onClick="showItem"
+        android:textColor="#ffffff"/>

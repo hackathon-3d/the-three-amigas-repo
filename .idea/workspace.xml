@@ -19,18 +19,17 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/newpage_presssed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/filestates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/newfile_states.xml" />
+    <list default="true" id="733ca1ab-17d1-4302-8abd-f63b14476ef0" name="Default" comment="Added button states">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/grid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/slash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page.png" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page_pressed.png" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/page_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" afterPath="$PROJECT_DIR$/DoubleSlash/build/source/r/debug/com/johnzeringue/doubleslash/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_project.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/build/res/all/debug/layout/activity_workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" afterPath="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -96,39 +95,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WorkspaceActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="52" selection-start="1919" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1802">
-              <folding>
-                <element signature="e#1808#2216#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="37" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.38368055" vertical-offset="714" max-vertical-offset="1785">
-              <folding>
-                <element signature="e#1770#2175#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_note_item.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml">
-          <provider editor-type-id="android-designer">
+      <file leaf-file-name="activity_workspace.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="409" selection-end="409" vertical-scroll-proportion="-5.037037" vertical-offset="0" max-vertical-offset="255">
+          <provider editor-type-id="text-editor">
+            <state line="22" column="39" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trash.png" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -189,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DoubleSlash/build/manifests/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_list_item.xml" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_project.xml" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/buttonStates" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_project_item.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/newfolder_states.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_project.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/newfile_states.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/filestates.xml" />
-        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" />
         <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml" />
+        <option value="$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml" />
       </list>
     </option>
   </component>
@@ -447,7 +429,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="261d8729" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01511D340A013001" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -631,7 +613,11 @@
       <created>1377353982354</created>
       <updated>1377353982354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added button states">
+      <created>1377355510335</created>
+      <updated>1377355510335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -641,7 +627,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13072917" sideWeight="0.670354" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13072917" sideWeight="0.6681416" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -657,8 +643,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20885417" sideWeight="0.6681416" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3318584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20885417" sideWeight="0.96349555" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -678,83 +664,13 @@
     <MESSAGE value="Now we're back." />
     <MESSAGE value="Awesome UI changes" />
     <MESSAGE value="Another sublime commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another sublime commit" />
+    <MESSAGE value="Added button states" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added button states" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_project.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-16.37037" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/header.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_project_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="373" selection-end="373" vertical-scroll-proportion="-5.037037" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/folder_states.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="250" selection-end="250" vertical-scroll-proportion="0.11764706" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="53" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding>
-            <element signature="e#415#433#0" expanded="true" />
-            <element signature="e#594#612#0" expanded="true" />
-            <element signature="e#1007#1025#0" expanded="true" />
-            <element signature="e#1215#1251#0" expanded="true" />
-            <element signature="e#1438#1471#0" expanded="true" />
-            <element signature="e#1659#1693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_project.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="784" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/newfolderpressed.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -781,6 +697,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1802">
+          <folding>
+            <element signature="e#1808#2216#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="36" selection-start="3298" selection-end="3298" vertical-scroll-proportion="0.0" vertical-offset="903" max-vertical-offset="1785">
+          <folding>
+            <element signature="e#1770#2175#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/EditNoteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="36" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.7956621" vertical-offset="0" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_edit_note.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="38" column="51" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/header.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_new_note.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/activity_workspace.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -791,34 +781,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/WorkspaceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="52" selection-start="1919" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1802">
-          <folding>
-            <element signature="e#1808#2216#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/layout/simple_note_item.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/slash.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="409" selection-end="409" vertical-scroll-proportion="-5.037037" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/java/com/johnzeringue/doubleslash/ProjectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="37" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.38368055" vertical-offset="714" max-vertical-offset="1785">
-          <folding>
-            <element signature="e#1770#2175#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/DoubleSlash/src/main/res/drawable-mdpi/trash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

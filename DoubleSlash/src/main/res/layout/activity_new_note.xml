@@ -6,15 +6,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".NewNoteActivity">
+    tools:context=".NewNoteActivity"
+    android:background="@drawable/grid">
 
     <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/note_name"
+            android:hint="Title"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:hint="Title"/>
+            android:layout_alignParentLeft="true"/>
 
     <EditText
             android:layout_width="fill_parent"
@@ -24,14 +25,16 @@
             android:id="@+id/note_body"
             android:layout_below="@+id/note_name"
             android:layout_centerHorizontal="true"
-            android:hint="Message"/>
+            android:hint="Message"
+            android:background="#00000000"
+            android:paddingBottom="20dp"/>
 
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Make Note"
             android:id="@+id/button"
-            android:layout_below="@+id/note_body"
-            android:layout_centerHorizontal="true"
-            android:onClick="makeNote"/>
+            android:onClick="makeNote"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
 </RelativeLayout>
